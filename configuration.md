@@ -4,7 +4,5 @@ Il est possible de configurer plusieurs options lors de la génération du formu
 
 | Paramètre | Description |
 | :--- | :--- |
-| _groupId_ | Ce paramètre est utilisé pour la génération du formulaire. Il désigne l'identifiant d'un groupe. La valeur par défaut est `undefined`. |
-
-
-
+| _groupId_ | Ce paramètre permet d'aller chercher les champs du formulaire. Il désigne l'identifiant d'un groupe. La valeur par défaut est `undefined`. |
+| _locale_ | Ce paramètre est utilisé pour définir la langue à utiliser. La valeur par défaut est `en_US`.  Voir la liste des langues disponibles. |

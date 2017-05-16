@@ -22,5 +22,5 @@ Les méthodes disponibles sont les suivantes:
 
 | Paramètre | Description |
 | :--- | :--- |
-| _.trigger('init')_ | Permet de lancer la construction du formulaire.  |
-| _.trigger('destroy')_ | Ce paramètre est utilisé pour définir la langue à utiliser. La valeur par défaut est `en_US`.  Voir la liste des langues disponibles. |
+| _.trigger('init')_ | Cette méthode permet de lancer la construction du formulaire.  |
+| _.trigger('destroy')_ | Cette méthoe permet de supprimer un formulaire. Les ressources sont libérées convenablement. |

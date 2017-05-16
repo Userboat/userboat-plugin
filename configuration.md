@@ -23,4 +23,4 @@ Les méthodes disponibles sont les suivantes:
 | Paramètre | Description |
 | :--- | :--- |
 | _.trigger('init')_ | Cette méthode permet de lancer la construction du formulaire.  |
-| _.trigger('destroy')_ | Cette méthoe permet de supprimer un formulaire. Les ressources sont libérées convenablement. |
+| _.trigger('destroy')_ | Cette méthode permet de supprimer un formulaire. Les ressources sont libérées convenablement. |

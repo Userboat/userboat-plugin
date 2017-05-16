@@ -8,7 +8,10 @@ Il est possible de configurer plusieurs options lors de la génération du formu
 | :--- | :--- |
 | _groupId_ | Ce paramètre permet d'aller chercher les champs du formulaire. Il désigne l'identifiant d'un groupe. La valeur par défaut est `undefined`. |
 | _locale_ | Ce paramètre est utilisé pour définir la langue à utiliser. La valeur par défaut est `en_US`.  Voir la liste des langues disponibles. |
-| _submit_button_text_ | Ce texte remplace celui par défaut dans le bouton pour soumettre le formulaire. La valeur par défaut est `Submit`. |
+| _onSuccess_ | Ce paramètre doit être une fonction, reçevant comme données les informations du membre lorsque l'envoi du formulaire est un succès. Aucune fonction n'est appelée par défaut. Utilisation: `onSuccess = function(member) { ... }` |
+| _onError_ | Ce paramètre doit être une fonction qui est appelée lorsqu'une erreur s'est produite lors de l'envoi du formulaire. Aucune fonction n'est appelée par défaut. Utilisation: `onError = function() { ... }` |
+| _onCompleted_ | Ce paramètre doit être une fonction qui est appelée, que le retour soit un succès ou une erreur lors de l'envoi du formulaire. Aucune fonction n'est appelée par défaut. Utilisation: `onCompleted = function() { ... }` |
+
 
 ## Méthodes
 

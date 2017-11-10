@@ -16,6 +16,6 @@
 | Japanese | ja\_JP |
 | Norwegian | nb\_NO |
 | Polish | pl\_PL |
-| Portugeuse | pt\_BR |
+| Portuguese | pt\_BR |
 | Spanish | es\_ES |
 | Swedish | sv\_SE |
